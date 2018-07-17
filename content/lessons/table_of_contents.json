@@ -82,6 +82,7 @@
         { "entry": "./dmgt_docs/doc1.md" },
         { "entry": "./dmgt_docs/doc2.md" }
       ]
+    },
     {
       "title": "Appendix",
       "entries": [
