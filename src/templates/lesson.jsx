@@ -1,9 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-  // import SEO from '../components/SEO'
+import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
-  // import Disqus from '../components/Disqus'
+import Disqus from '../components/Disqus'
 import OptInForm from '../components/OptInForm'
 import SiteHeader from '../components/SiteHeader'
 
@@ -25,7 +25,7 @@ export default class LessonTemplate extends React.Component {
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
         </Helmet>
-  //      <SEO postPath={slug} postNode={postNode} postSEO />
+        <SEO postPath={slug} postNode={postNode} postSEO />
         <BodyContainer>
           <SiteHeader isLesson postNode={postNode} slug={slug} />
           <div className={'post-content'}>
@@ -36,7 +36,7 @@ export default class LessonTemplate extends React.Component {
           <h5>Get Updates When New Lessons are Published</h5>
           <OptInForm />
           <div style={{ height: '50px' }} />
-    //      <Disqus postNode={postNode} />
+          <Disqus postNode={postNode} />
         </BodyContainer>
       </div>
     )
