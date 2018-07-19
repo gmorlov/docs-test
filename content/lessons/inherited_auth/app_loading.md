@@ -1,5 +1,5 @@
 ---
-title: "Set up AppLoading"
+title: "Set up 2222 AppLoading"
 ---
 
 To prove that app loading is indeed doing anything, some easy refactoring to 
